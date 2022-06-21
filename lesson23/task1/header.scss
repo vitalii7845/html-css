@@ -20,6 +20,7 @@
     margin-left: $unit;
     border-radius: $border-radius;
     cursor: pointer;
+    color: $text-color-secondary;
 
     &_selected {
       background-color: $color-primary;
