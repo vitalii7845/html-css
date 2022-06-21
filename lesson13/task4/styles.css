@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.gallery {
+  display: flex;
+}
+
+div > div {
+  border: 1px dotted grey;
+  margin: 16px;
+}

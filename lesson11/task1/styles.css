@@ -1,0 +1,16 @@
+div > div {
+  width: 100px;
+  height: 100px;
+  background: coral;
+}
+
+.not_displayed {
+  display: none;
+}
+.hiddnen {
+  visibility: hidden;
+}
+.visible {
+    visibility:visible;
+}
+

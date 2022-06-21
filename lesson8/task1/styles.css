@@ -1,0 +1,21 @@
+body {
+  background-color: antiquewhite;
+}
+
+.regtangle {
+border: 8px solid black;
+margin: 16px;
+padding: 16px;
+width: 512px;
+height: 128px;
+}
+
+.regtangle_content {
+box-sizing: content-box;
+background-color: aquamarine;
+}
+
+.regtangle_border {
+box-sizing: border-box;
+background-color: azure;
+}

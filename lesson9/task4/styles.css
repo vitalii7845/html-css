@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.square {
+  height: 200px;
+  width: 20%;
+  float: left;
+}
+
+.block_red {
+  background-color: red;
+}
+
+.block_green {
+  background-color: green;
+}
+
+.block_blue {
+  background-color: blue;
+}
+
+.block_yellow {
+  background-color: yellow;
+}
+
+.block_black {
+  background-color: black;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.gallery {
+    display: flex;
+    overflow: auto;
+}
+
+.thumb {
+    margin: 8px;
+}
+
+.gallery:hover {
+    cursor: all-scroll;
+}

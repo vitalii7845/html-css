@@ -1,0 +1,43 @@
+.navigation {
+    background-color: #ff7f50;
+    min-height: 200px;
+    display: flex;
+    flex: 1;
+}
+
+.products-list {
+    background-color: #006400;
+    min-height: 200px;
+    display: flex;
+    flex: 1;
+}
+
+.news {
+    background-color: #0ff;
+    min-height: 200px;
+    display: flex;
+    flex: 1;
+}
+
+span {
+    background-color: #faebd7;
+    padding: 8px;
+    border-radius: 4px;
+    text-transform: lowercase;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (min-width: 600px) {
+    .product {
+        display: flex;
+        flex: 2;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .content {
+        display: flex;
+    }
+}
+

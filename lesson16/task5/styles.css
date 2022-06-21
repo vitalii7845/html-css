@@ -1,0 +1,16 @@
+
+* {
+  box-sizing: border-box;
+}
+
+  form {
+      margin: 32px;
+  }
+  
+  .form-control {
+      margin: 8px;
+  }
+  
+  .languages {
+      margin: 8px;
+  }

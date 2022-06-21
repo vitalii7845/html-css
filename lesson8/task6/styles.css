@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.rectangle {
+  border: 2px solid black;
+  padding: 50px;
+}
+.rectangle1 {
+  background-color: blue;
+  margin: 50px;
+}
+.rectangle2 {
+  background-color: yellow;
+}
+.rectangle3 {
+  background-color: green;
+}
+.rectangle4 {
+  background-color: pink;
+}

@@ -1,0 +1,88 @@
+
+.dropdown {
+margin: 16px;
+/* background-color: darkgreen; */
+/* color:white; */
+display: inline-block;
+/* padding: 8px; */
+position: relative;
+}
+
+.menu-button {
+  display: block;
+  padding: 16px;
+  background-color: darkgreen;
+  opacity: 0.8;
+  color:white;
+}
+
+.menu-button:hover {
+    opacity: 1;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.menu-list {
+position: absolute;
+color: black;
+  list-style-type: none;
+  background-color: lightcyan;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+  min-width: 120px;
+  z-index: 1;
+}
+
+.menu-item {
+  padding: 16px;
+}
+
+.menu-item:hover {
+  background-color: ghostwhite;
+}
+
+.dropdown:hover .menu-list {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+/* * {
+    box-sizing: border-box;
+} */
+/* .dropdown {}
+.menu-button {}
+.menu-list {}
+.menu-item {
+  opacity: 0.8;
+  margin:16px;
+  padding: 16px;
+  opacity: 1;
+  font-size: 16px;
+  color:white;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  background-color: darkgreen;
+  background-color: lightcyan;
+  color:black;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  background-color: ghostwhite;
+  list-style-type: none;
+} */
+
+/* .dropdown:hover {}    
+.menu-button:hover {}   
+.menu-item:hover {} */
+/* .dropdown:hover .menu-list {} ????*/
