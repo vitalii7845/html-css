@@ -1,0 +1,52 @@
+@import 'layout.scss';
+* {
+  box-sizing: border-box;
+}
+
+@include lg {
+  .page {
+    display: flex;
+    width: 100%;
+  }
+}
+
+.main {
+  @include md {
+    display: flex;
+  }
+  @include lg {
+    flex: 2;
+  }
+  &-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    &__navigation {
+      background-color: #ff7f50;
+      @include md {
+        flex: 1;
+      }
+    }
+    &__products {
+      background-color: #006400;
+      @include md {
+        flex: 1;
+      }
+    }
+    &__news {
+      background-color: #0ff;
+      @include lg {
+        flex: 1;
+      }
+    }
+  }
+}
+
+span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #faebd7;
+  text-transform: lowercase;
+}
