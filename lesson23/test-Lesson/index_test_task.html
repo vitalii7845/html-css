@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+.navigation{
+    display: flex;
+    background-color: #ff7f50;
+    min-height: 200px;
+    flex: 1;
+}
+
+.product_list{
+    display: flex;
+    background-color: #006400;
+    min-height: 200px;
+    flex: 1;
+}
+
+.news{
+    display: flex;
+    background-color: #0ff;
+    min-height: 200px;
+    flex: 1;
+
+}
+
+span {
+    background-color: #faebd7;
+    padding: 8px;
+    border-radius: 4px;
+    text-transform: lowercase;
+    margin: auto;
+}
+
+@media screen and (min-width: 600px) {
+    .product{
+        display: flex;
+        flex: 2;
+
+    } 
+}  
+
+@media screen and (min-width: 900px) {
+    .content {
+        display: flex;
+
+    }
+}
+  </style>
+</head>
+<body>
+       <main class='content'>
+    <section class='product'>
+        <div class='navigation'><span>Navigation</span></div>
+        <div class='product_list'><span>Products List</span></div>
+    </section>
+    <div class='news'><span>News</span></div>
+    </main>
+</body>
+</html>

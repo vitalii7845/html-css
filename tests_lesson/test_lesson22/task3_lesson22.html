@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+      crossorigin="anonymous"
+    />
+
+    <style>
+      main {
+        display: flex;
+      }
+      picture {
+        max-width: 100%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <picture>
+        <source
+          srcset="
+            https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg
+          "
+          media="(min-width: 401px)"
+        />
+        <source
+          srcset="
+            https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/small.jpg
+          "
+          media="(max-width: 401px)"
+        />
+
+        <img
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg"
+          alt="Tree on the land"
+        />
+      </picture>
+    </main>
+  </body>
+</html>

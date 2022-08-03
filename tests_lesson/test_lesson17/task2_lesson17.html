@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson17_Tables_part2_styles</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+      crossorigin="anonymous"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      table {
+        margin: 32px;
+        width: 500px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      caption {
+        margin: 8px;
+      }
+      table,
+      td,
+      th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        /* border-spacing: 10px; */
+      }
+
+      td,
+      th {
+        padding: 4px;
+        text-align: right;
+        line-height: 40px;
+      }
+
+      th {
+        background-color: aqua;
+      }
+      tfoot {
+        font-weight: 700;
+      }
+
+      div {
+        overflow-x: auto;
+      }
+
+      tbody > tr:nth-child(odd) {
+        background-color: #f2f2f2;
+      }
+
+      tbody > tr:hover {
+        background-color: #aaa;
+        color:#fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <table>
+        <caption>
+          Shoping List
+        </caption>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Amount</th>
+            <th>Price</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Milk</td>
+            <td>3</td>
+            <td>$2</td>
+            <td>$6</td>
+          </tr>
+          <tr>
+            <td>Bread</td>
+            <td>2</td>
+            <td>$1</td>
+            <td>$2</td>
+          </tr>
+          <tr>
+            <td>Meat</td>
+            <td>5</td>
+            <td>$4</td>
+            <td>$20</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">Total</td>
+            <td>$28</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+      crossorigin="anonymous"
+    />
+    <style>
+      .navigation {
+        background-color: #fa8;
+        min-height: 200px;
+        display: flex;
+        flex-grow: 1;
+      }
+
+      .product-list {
+        background-color: #8af;
+        min-height: 200px;
+        display: flex;
+        flex-grow: 1;
+      }
+
+      .news {
+        background-color: #a18;
+        min-height: 200px;
+        display: flex;
+        flex-grow: 1;
+      }
+
+      span {
+        background-color: beige;
+        padding: 4px;
+        border-radius: 4px;
+        text-transform: lowercase;
+        margin: auto;
+      }
+
+      @media screen and (min-width: 600px) {
+        .product {
+          display: flex;
+          flex-grow: 2;
+        }
+      }
+
+      @media screen and (min-width: 900px) {
+        .content {
+          display: flex;
+          /* flex-grow: 2; */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="content">
+    <section class="product">
+      <div class="navigation"><span>Navigation</span></div>
+      <div class="product-list"><span>Product List</span></div>
+    </section>
+    <div class="news"><span>News</span></div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task1_lesson19</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+      crossorigin="anonymous"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .container {
+        margin: 16px;
+      }
+
+      .rect {
+        width: 100px;
+        height: 100px;
+        background-color: coral;
+        margin-bottom: 16px;
+        opacity: 0.5;
+        transition: width 1s, opacity 5s;
+                /* transition: width 1s 2s, opacity 5s 2s; */
+      }
+
+      .rect:hover {
+        width: 100%;
+        opacity: 1;
+      }
+
+      .rect:nth-child(2) {
+        transition-timing-function: linear;
+      }
+      .rect:nth-child(3) {
+        transition-timing-function: ease-in-out;
+      }
+      .rect:nth-child(4) {
+        transition-timing-function: ease-in;
+      }
+      .rect:nth-child(5) {
+        transition-timing-function: ease-out;
+      }
+    </style>
+  </head>
+  <body class="container">
+    <div class="rect"></div>
+    <div class="rect"></div>
+    <div class="rect"></div>
+    <div class="rect"></div>
+    <div class="rect"></div>
+  </body>
+</html>

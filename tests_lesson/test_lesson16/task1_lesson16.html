@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task1_lesson16</title>
+
+    <style>
+      .form-control {
+        margin: 16px;
+      }
+    </style>
+  </head>
+
+  <form>
+    <div class="form-control">
+      <label for="last-name-form-control">Last Name</label>
+      <input
+        type="text"
+        id="last-name-form-control"
+        name="lastName"
+        value="Emerson"
+        placeholder="Type your story..."
+      />
+    </div>
+    <div class="form-control">
+      <input type="number" value="17" name="age" />
+    </div>
+    <div class="form-control">
+      <label>
+        <input type="checkbox" name="agree" />
+        Agree with terms and condition
+        </label>
+    </div>
+    <div class="form-control">
+      <input type="radio" id="gender-male" name="gender" />
+      <label for="gender-male">Male</label> 
+      <input type="radio" id="gender-female" name="gender" />
+      <label for="gender-female">Female</label> 
+      <input type="radio" id="gender-secret" name="gender" />
+      <label for="gender-secret">Secret</label> 
+    </div>
+    <div>
+      <textarea name="description" placeholder="Type your story..."></textarea>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+  <body></body>
+</html>

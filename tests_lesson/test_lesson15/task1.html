@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test_Lesson15_task1</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+      crossorigin="anonymous"
+    />
+    <style>
+      .main-image {
+        display: block;
+        margin: 20px auto 0;
+        max-width: 100%;
+        border-radius: 10px;
+      }
+      .gallery {
+        display: flex;
+      }
+      .card {
+        margin: 16px;
+        box-shadow: 0px 5px 30px -9px rgba(0, 0, 0, 0.75);
+      }
+
+      .opacity-filter {
+        filter: opacity(50%);
+      }
+      .blur-filter {
+        filter: blur(4px);
+      }
+      .invert-filter {
+        filter: invert(100%);
+      }
+      .caption {
+        line-height: 30px;
+        text-align: center;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    
+    <div>
+          <img
+      class="main-image"
+      src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg"
+      alt="Land with tree"
+    />
+    </div>
+
+    <div class="gallery">
+      <figure class="card">
+        <img
+          class="opacity-filter"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+          alt="Opacity filter"
+        />
+        <figcaption class="caption">Opacity</figcaption>
+      </figure>
+      <figure class="card">
+        <img
+          class="blur-filter"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+          alt="blur filter"
+        />
+        <figcaption class="caption">Blur</figcaption>
+      </figure>
+      <figure class="card">
+        <img
+          class="invert-filter"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+          alt="invert-filter filter"
+        />
+        <figcaption class="caption">Invert</figcaption>
+      </figure>
+    </div>
+  </body>
+</html>

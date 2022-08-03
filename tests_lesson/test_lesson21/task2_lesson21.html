@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+      crossorigin="anonymous"
+    />
+    <style>
+      .content {
+        display: flex;
+        min-height: 100vh;
+      }
+
+      .gallery {
+        display: flex;
+        width: 80%;
+        background-color: #ff7f50;
+      }
+
+      .ideas {
+        width: 20%;
+        background-color: #00ffff;
+        display: flex;
+      }
+
+      .idea {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 4px;
+        color: #ffffff;
+        margin: auto;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+
+      .image {
+        max-width: 100%;
+        margin: auto;
+        box-shadow: 0px 10px 19px -9px rgba(0,0,0,0.75);
+      }
+    </style>
+  </head>
+
+  <body>
+    <main class="content">
+      <section class="gallery">
+        <img
+          class="image"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson21/task2/nature.jpeg"
+          alt="Land"
+        />
+      </section>
+      <aside class="ideas">
+        <span class="idea">Keep calm</span>
+      </aside>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+
+  <style>
+    [data-description] {
+      background-color: aqua;
+    }
+
+    [href] {
+      font-size: 30px;
+    }
+
+    [href][target] {
+      color: red;
+    }
+
+    [data-description="archors"] {
+      color:coral;
+    }
+
+    [type="text"] {
+      background-color: orange;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Селектори атрибутів</h1>
+  </header>
+  <main>
+    <p data-description="attributes">
+      Атрибути використовуються щоби асоціювати
+      деякі дані з певними елементами
+    </p>
+    <p data-description="archors">
+      Лінки використовуються в HTML документах для переходу 
+      на сторінки <a href="#">того же</a> 
+      або <a target="_blank" href="https://www.wikipedia.org">нших </a> вебсайтів   
+    </p>
+    <div>
+      <p>
+        Інпути можуть не тільки приймати текстові дані від користуачів 
+        а й виступати в ролі чекбоксів і багато інших елементів
+      </p>
+      <input type="text">
+      <input type="checkbox" name="" id="">
+      <input type="password" name="" id="">
+    </div>
+  </main>
+</body>
+</html>
